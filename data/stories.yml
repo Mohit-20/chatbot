@@ -1,0 +1,56 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: intro path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: testbot
+  - action: utter_testbot
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: study material path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: study_material
+  - action: action_study_material
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: notepad path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: notepad
+  - action: action_open_notepad
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: portal path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: studentportal
+  - action: action_open_portal
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: camera path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: vlc
+  - action: action_vlc_app
+  - intent: goodbye
+  - action: utter_goodbye

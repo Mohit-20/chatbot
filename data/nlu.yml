@@ -1,0 +1,78 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: testbot
+  examples: |
+    - who are you
+    - botname
+    - tell about yourself
+    - are you bot
+    - what is your name
+    - introduce yourself
+
+- intent: study_material
+  examples: |
+    - help me prepare for [python](subject) [interview](material_type)
+    - find me some [interview](material_type) qustion in [python](subject) 
+    - send me [tutorial](material_type) video links for [python](subject)
+    - get me some [python](subject) [tutorial](material_type) links
+
+- intent: notepad
+  examples: |
+    - please open notepad
+    - open notepad
+    - can you open notepad for me
+    - open empty notepad
+
+
+- intent: studentportal
+  examples: |
+    - open my student portal
+    - show student portal
+    - login my student portal
+    - please login into my portal
+    - portal
+    - student portal
+
+- intent: camera
+  examples: |
+    - open camera
+    - turn on camera
+    - please turn on camera
+
+- intent: vlc
+  examples: |
+    - open vlc
+    - turn on vlc
+    - please turn on vlc
+    - vlc
+    - vlc application
